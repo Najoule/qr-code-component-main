@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #d5e1ef;
+
+}
+
+.qr-card {
+    color: white;
+    background-color: white;
+    border-radius: 10px;
+    font-family: monter;
+    padding: 16px;
+    width: 320px;
+    margin: 20px;
+}
+
+.qr-card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.qr-card h1 {
+    text-align: center;
+    color: #2b7dfa;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.qr-card p {
+    text-align: center;
+}
+
+.qr-button {
+    display: flex;
+    justify-content: center;
+    padding: 12px 24px;
+    margin: 50px 20px;
+
+
+
+}
