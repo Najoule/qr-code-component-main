@@ -50,21 +50,19 @@ body {
     line-height: 1.5;
 }
 
-.qr-button {
-    display: flex;
-    justify-content: center;
-    padding: 12px 24px;
-    margin: 50px 20px;
-    /* Initial */
-    transition: background-color 0.3 ease;
-    
-}
-
-.qr-button:hover {
-    background-color: #3685ff;
-
-}
-
-.qr-search {
+.qr-card button {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: none;
     border-radius: 20px;
+    background-color: #1f314f;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.qr-card button:hover {
+    background-color: #3685ff;
 }
